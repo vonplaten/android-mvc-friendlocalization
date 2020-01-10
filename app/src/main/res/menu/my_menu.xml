@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/menuitem_update"
+        android:title="update"
+        android:icon="@drawable/ic_icon"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuitem_human"
+        android:title="Turn human"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuitem_zombie"
+        android:title="Turn zombie"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menuitem_horror"
+        android:title="Game"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menuitem_connect"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+
+
+</menu>
